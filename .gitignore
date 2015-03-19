@@ -25,6 +25,7 @@ Temporary Items
 node_modules
 
 # Files created by bot
+config.json
 cytubebot.db
 cytubelog.log
 err.log
