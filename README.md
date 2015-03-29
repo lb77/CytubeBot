@@ -67,6 +67,9 @@ Require rank/permission:
 - `$add URL [next]` -  Adds link, requires mod because of potential for media limit abuse.
 - `$shuffle` - Shuffles the playlist. Requries mod or permission
 - `$settime time` - Sets the time on the video to time. Whereas time is in seconds. Requires mod or "T" permission.
+- `$embed URL` - Embeds a URL in chat
+- `$bigembed URL` - Same as `$embed`, but larger
+- `$star USER [award]` - See which rank a user has, or change it
 
 Don't require rank/permission:
 
@@ -74,9 +77,6 @@ Don't require rank/permission:
 - `$blockedusers` - Lists the blocked users
 - `$listpermissions [username]` - Lists the hybrid mod permissions for a user. Omitting username shows calling users permissions.
 - `$quote [username]` - Fetches a quote from the user given, otherwise fetches a random quote
-- `$processinfo` - Shows basic node process memory usage
-- `$status` - Sends status ie. if the bot is muted
-- `$talk message` - Cleverbot talk bot
 - `$wolfram query` - Requires a [WolframAlpha API key](http://products.wolframalpha.com/api/)
 - `$weather (US zip code | city/town country)` - Looks up current conditions. Requires [WeatherUnderground API key](http://www.wunderground.com/weather/api/)
 - `$forecast (US zip code | city/town country) [tomorrow]` - Looks up forecast for that day, or if tomorrow is given, the next day. Requires [WeatherUnderground API key](http://www.wunderground.com/weather/api/)
